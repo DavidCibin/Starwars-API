@@ -1,0 +1,131 @@
+body { 
+  background: url(https://i.ibb.co/Y8FD19M/sw-logo.png) no-repeat center center fixed, url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  text-align: center;
+  background-size: 1000px, cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1f9b86a6;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: auto;
+  border-bottom: 2px solid rgba(204, 204, 204, 0.603);
+}
+.App-header a {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 7px darkblue
+}
+.App-header a:hover {
+  color: #ccc;
+  text-decoration: none;
+  text-shadow: 0 0 7px black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.d-flex {
+  margin: 50px;
+}
+.ships-page {
+  padding: 20px;
+}
+
+.links:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+.ships-card:hover {
+  background-color: #2b4440;
+  transition: 0.7s ease;
+  font-size: 23px;
+}
+
+.ships-card {
+  transition: 0.7s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  background-color: #375651;
+  font-size: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+  color: white;
+  border: 2px solid rgba(204, 204, 204, 0.603);
+}
+
+.ships-details {
+  display: inline-block;
+    padding: 50px;
+    background-color: #375651;
+    border-radius: 10px;
+    margin-top: 70px;
+    border: 2px solid rgba(204, 204, 204, 0.603);
+}
+.ships-details h2{
+  margin-bottom: 30px;
+}
+
+
+.details-link {
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(70, 70, 70);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid rgba(204, 204, 204, 0.603);
+  transition: 0.4s ease;
+}
+.details-link:hover {
+  color: #ccc;
+  text-decoration: none;
+  background-color: rgb(41, 41, 41);
+  /* font-size: 15px; */
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.ships-details ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
