@@ -1,6 +1,6 @@
 # Star Wars API lab
 
-I used React and this API [here]((https://swapi.dev/) to build this application for practice purposes.
+I used React and this API [here](https://swapi.dev/) to build this application for practice purposes.
 
 ![Star Wars API lab](public/images/index.png)
 
